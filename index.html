@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crystal & John | Wedding Invitation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="home">
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <p class="kicker">Together with their families, invite you to celebrate their wedding</p>
+        <h1>Crystal Joy Feliciano <span>&</span> John Rey Soler</h1>
+        <p class="wedding-date">December 12, 2026</p>
+        <a class="btn" href="#details">View Invitation</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section countdown">
+        <h2>Counting Down to Forever</h2>
+        <div id="countdown" class="count-grid">
+          <article><strong id="days">0</strong><span>Days</span></article>
+          <article><strong id="hours">0</strong><span>Hours</span></article>
+          <article><strong id="minutes">0</strong><span>Minutes</span></article>
+          <article><strong id="seconds">0</strong><span>Seconds</span></article>
+        </div>
+      </section>
+
+      <section class="section story">
+        <h2>Our Story</h2>
+        <div class="timeline">
+          <div class="timeline-item"><h3>How We Met</h3><p>A chance meeting that felt written in the stars.</p></div>
+          <div class="timeline-item"><h3>First Date</h3><p>Coffee turned into hours of laughter and connection.</p></div>
+          <div class="timeline-item"><h3>The Proposal</h3><p>A heartfelt "yes" surrounded by love and happy tears.</p></div>
+          <div class="timeline-item"><h3>The Forever Begins</h3><p>Now we begin our next chapter hand in hand.</p></div>
+        </div>
+      </section>
+
+      <section class="section details" id="details">
+        <h2>Wedding Details</h2>
+        <div class="cards two-col">
+          <article class="card">
+            <p class="icon">💒</p>
+            <h3>Wedding Ceremony</h3>
+            <p><strong>Date:</strong> December 12, 2026</p>
+            <p><strong>Time:</strong> 2:00 PM</p>
+            <p><strong>Venue:</strong> St. Michael Parish Church</p>
+            <p><strong>Address:</strong> 123 Garden Lane, Quezon City</p>
+            <a class="btn btn-small" href="https://maps.google.com" target="_blank" rel="noreferrer">Open Map</a>
+          </article>
+          <article class="card">
+            <p class="icon">🥂</p>
+            <h3>Wedding Reception</h3>
+            <p><strong>Time:</strong> 6:00 PM</p>
+            <p><strong>Venue:</strong> Sage Blossom Events Hall</p>
+            <p><strong>Address:</strong> 45 Emerald Ave, Quezon City</p>
+            <p><strong>Dress Code:</strong> Formal Attire</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section entourage">
+        <h2>Entourage</h2>
+        <div class="cards two-col">
+          <article class="card">
+            <h3>Groom's Side</h3>
+            <ul>
+              <li><strong>Best Man:</strong> Name Here</li>
+              <li><strong>Groomsmen:</strong> Name Here, Name Here</li>
+              <li><strong>Ring Bearer:</strong> Name Here</li>
+              <li><strong>Bible Bearer:</strong> Name Here</li>
+              <li><strong>Coin Bearer:</strong> Name Here</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Bride's Side</h3>
+            <ul>
+              <li><strong>Maid of Honor:</strong> Name Here</li>
+              <li><strong>Bridesmaids:</strong> Name Here, Name Here</li>
+              <li><strong>Flower Girls:</strong> Name Here, Name Here</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section sponsors">
+        <h2>Principal Sponsors</h2>
+        <div class="cards two-col">
+          <article class="card"><h3>Ninongs</h3><p>Name Here • Name Here • Name Here</p></article>
+          <article class="card"><h3>Ninangs</h3><p>Name Here • Name Here • Name Here</p></article>
+        </div>
+      </section>
+
+      <section class="section dress-code">
+        <h2>Dress Code</h2>
+        <p class="center">Formal Attire<br />Gentlemen: Suit / Barong<br />Ladies: Long Gown / Cocktail Dress</p>
+        <div class="swatches">
+          <span style="background:#93a98a"></span>
+          <span style="background:#b6c4a8"></span>
+          <span style="background:#dce3d2"></span>
+          <span style="background:#6f7f65"></span>
+          <span style="background:#f1f4ec"></span>
+        </div>
+      </section>
+
+      <section class="section rsvp">
+        <h2>RSVP</h2>
+        <form class="card form">
+          <label>Full Name <input type="text" name="name" required /></label>
+          <label>Contact Number <input type="tel" name="contact" required /></label>
+          <label>Number of Guests <input type="number" name="guests" min="1" max="10" /></label>
+          <label>Attendance
+            <select name="attendance">
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </label>
+          <label>Meal Preference <input type="text" name="meal" placeholder="e.g., Chicken, Vegetarian" /></label>
+          <label>Message for Couple <textarea name="message" rows="4"></textarea></label>
+          <button type="submit" class="btn">Submit RSVP</button>
+        </form>
+      </section>
+
+      <section class="section gift-note">
+        <h2>Gift Note</h2>
+        <blockquote>
+          With all that we have, we've been truly blessed.<br />
+          Your presence and prayers are all that we request.<br />
+          But if you desire to give nonetheless,<br />
+          A monetary gift is one we suggest.
+        </blockquote>
+      </section>
+
+      <section class="section gallery">
+        <h2>Gallery</h2>
+        <p class="center">Pre-wedding photos & engagement moments</p>
+        <div class="masonry">
+          <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=800&q=80" alt="Couple portrait" />
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80" alt="Engagement photo" />
+          <img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=800&q=80" alt="Wedding details" />
+          <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=80" alt="Couple laugh" />
+          <img src="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=800&q=80" alt="Ring details" />
+          <img src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?auto=format&fit=crop&w=800&q=80" alt="Sunset couple" />
+        </div>
+      </section>
+
+      <section class="section faq">
+        <h2>FAQ</h2>
+        <div class="faq-list">
+          <details><summary>Can I bring a plus one?</summary><p>Please refer to your invitation details or contact us directly.</p></details>
+          <details><summary>What time should I arrive?</summary><p>Please arrive at least 30 minutes before the ceremony.</p></details>
+          <details><summary>Is parking available?</summary><p>Yes, parking is available at both venues.</p></details>
+          <details><summary>Are children allowed?</summary><p>Kindly contact us for guidance regarding children attendance.</p></details>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Thank you for celebrating our love story with us.</p>
+      <p class="mono">C ♥ J</p>
+      <div class="socials"><a href="#">Instagram</a> · <a href="#">Facebook</a></div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
